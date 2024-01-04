@@ -1,0 +1,1 @@
+export {Emblem, type EmblemProps} from './emblem'
