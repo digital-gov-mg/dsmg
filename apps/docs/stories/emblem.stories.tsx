@@ -28,3 +28,17 @@ export const RectangleEmblem: Story = {
         type: 'rectangle',
     },
 }
+
+export const SquareEmblem: Story = {
+    render: (props) => <Emblem {...props} />,
+    args: {
+        type: 'square',
+    },
+}
+
+export const RoundEmblem: Story = {
+    render: (props) => <Emblem {...props} />,
+    args: {
+        type: 'round',
+    },
+}
