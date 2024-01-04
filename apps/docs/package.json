@@ -1,5 +1,5 @@
 {
-  "name": "@repo/docs",
+  "name": "@dsmg/docs",
   "version": "0.0.0",
   "type": "module",
   "private": true,
@@ -17,8 +17,8 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@repo/eslint-config": "*",
-    "@repo/typescript-config": "*",
+    "@dsmg/eslint-config": "*",
+    "@dsmg/typescript-config": "*",
     "@storybook/addon-actions": "^7.5.3",
     "@storybook/addon-docs": "^7.5.3",
     "@storybook/addon-essentials": "^7.5.3",
@@ -34,5 +34,5 @@
     "vite": "^5.0.2"
   },
   "readme": "ERROR: No README data found!",
-  "_id": "@repo/docs@0.0.0"
+  "_id": "@dsmg/docs@0.0.0"
 }
