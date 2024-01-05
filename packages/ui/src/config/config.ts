@@ -14,6 +14,7 @@ export const { styled, css, createTheme, theme, globalCss } = createStitches({
 			3: '15px',
 		},
 		fonts: {
+			body: 'Plus Jakarta Sans Variable, apple-system, sans-serif',
 			untitled: 'Untitled Sans, apple-system, sans-serif',
 			mono: 'Söhne Mono, menlo, monospace',
 		},
