@@ -28,7 +28,7 @@ export const MinistryStory: Story = {
     name: 'Ministry',
     args: {
         type: 'ministry',
-        acronym: 'MAE',
+        acronym: 'MNDPT',
         name: 'du développement numérique,\n' +
             'de la transformation digitale,\n' +
             'des postes et des télécommunication',
@@ -44,8 +44,8 @@ export const DepartmentStory: Story = {
     name: 'Central Department',
     args: {
         type: 'department',
-        acronym: 'MAE',
-        name: 'des affaires régionales',
+        acronym: 'MNDPT',
+        name: 'du Dévelopement Numérique',
         motto: 'Fitiavana - Tanindrazana - Fandrosoana'
     },
 }
@@ -58,8 +58,8 @@ export const RegionalStory: Story = {
     name: 'Regional Department',
     args: {
         type: 'regional',
-        acronym: 'MAE',
-        name: 'des affaires régionales',
+        acronym: 'MNDPT',
+        name: 'du Dévelopement Numérique',
         motto: 'Fitiavana - Tanindrazana - Fandrosoana'
     },
 }

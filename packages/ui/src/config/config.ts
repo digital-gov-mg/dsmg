@@ -1,13 +1,16 @@
 import { createStitches } from '@stitches/react'
+import { colors, radii, sizes, space } from '../tokens'
 
+/**
+ * Tokens configuration.
+ */
 export const { styled, css, createTheme, theme, globalCss } = createStitches({
+	prefix: 'dsmg',
 	theme: {
-		colors: {},
-		space: {
-			1: '5px',
-			2: '10px',
-			3: '15px',
-		},
+		colors,
+		space,
+		radii,
+		sizes,
 		fontSizes: {
 			1: '12px',
 			2: '13px',
@@ -21,10 +24,8 @@ export const { styled, css, createTheme, theme, globalCss } = createStitches({
 		fontWeights: {},
 		lineHeights: {},
 		letterSpacings: {},
-		sizes: {},
 		borderWidths: {},
 		borderStyles: {},
-		radii: {},
 		shadows: {},
 		zIndices: {},
 		transitions: {},

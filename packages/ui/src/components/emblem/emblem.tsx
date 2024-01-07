@@ -10,8 +10,6 @@ import seal from './assets/seal.svg'
 export interface EmblemProps extends HTMLAttributes<HTMLDivElement> {
     /**
      * Type of the emblem.
-     * @type string
-     * @default ''
      */
     type: 'rectangle' | 'round' | 'square'
 }
@@ -19,7 +17,6 @@ export interface EmblemProps extends HTMLAttributes<HTMLDivElement> {
 /**
  * `Emblem` component declaration.
  * A React component that displays the flag and the seal of Madagascar.
- * @param type - String that defines the shape of the emblem. The possible values are 'rectangle', 'round' or 'square'
  */
 export function Emblem({ type = 'rectangle' }: EmblemProps): JSX.Element {
     global()

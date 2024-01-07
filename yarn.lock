@@ -1786,6 +1786,7 @@ __metadata:
     "@types/react": "npm:^18.2.38"
     "@types/react-dom": "npm:^18.2.17"
     eslint: "npm:^8.54.0"
+    hex-to-rgba: "npm:^2.0.1"
     react: "npm:^18.2.0"
     tsup: "npm:^8.0.1"
     typescript: "npm:^5.3.2"
@@ -8276,6 +8277,13 @@ __metadata:
   dependencies:
     function-bind: "npm:^1.1.2"
   checksum: 5d415b114f410661208c95e7ab4879f1cc2765b8daceff4dc8718317d1cb7b9ffa7c5d1eafd9a4389c9aab7445d6ea88e05f3096cb1e529618b55304956b87fc
+  languageName: node
+  linkType: hard
+
+"hex-to-rgba@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "hex-to-rgba@npm:2.0.1"
+  checksum: ddf67c1c48eea0154086bf10b36dacb950f05eebfcd740e9968018364a3ca239d39396758c9eaf0f7877c1a17ec2a059692ac7bb87f2e8fa6a8c34d8c084f63d
   languageName: node
   linkType: hard
 

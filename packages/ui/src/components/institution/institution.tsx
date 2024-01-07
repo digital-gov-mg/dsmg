@@ -5,42 +5,39 @@ import { InstitutionStyled, CountryMottoStyled, CountryRegimeStyled } from './in
 export interface InstitutionProps {
     /**
      * Type of institution.
-     * @default'ministry'
-     * @type'ministry' | 'department' |'regional'
      */
     type: 'ministry' | 'department' | 'regional',
 
     /**
      * Acronym of the institution.
-     * @type string
-     * @default ''
      */
     acronym: string,
 
     /**
      * Name of the institution.
-     * @type string
-     * @default ''
      */
     name: string,
 
     /**
      * Motto of the Republic of Madagascar.
-     * @type string
-     * @default 'Fitiavana - Tanindrazana - Fandrosoana'
      */
     motto: string,
 }
 
+/**
+ * Institution component.
+ */
 export function Institution({type = 'ministry', acronym, name, motto = 'Fitiavana - Tanindrazana - Fandrosoana'}: InstitutionProps): JSX.Element {
     global()
 
     return <InstitutionStyled>
+
         {type === 'ministry' && `Ministère`}
-        {type === 'department' && `${acronym} - Direction Générale`}
-        {type === 'regional' && `${acronym} - Direction Régionale`}
+        {type === 'department' && `Direction Générale`}
+        {type === 'regional' && `Direction Régionale`}
         <br />
         {name}
+        {(type === 'department' || type === 'regional') && ` - ${acronym}`}
         <CountryRegimeStyled>
             République de Madagascar
         </CountryRegimeStyled>

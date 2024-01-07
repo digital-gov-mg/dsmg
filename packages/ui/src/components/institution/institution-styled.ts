@@ -7,11 +7,11 @@ export const InstitutionStyled = styled('div',{
 
 export const CountryRegimeStyled = styled('div', {
     fontWeight: 'lighter',
-    marginTop: '6px'
+    marginTop: '$space$2xs'
 })
 
 export const CountryMottoStyled = styled('div', {
     fontWeight: 'lighter',
     fontStyle: 'italic',
-    marginTop: 0
+    marginTop: '$space$0'
 })

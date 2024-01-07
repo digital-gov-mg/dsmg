@@ -1,49 +1,52 @@
 import { styled } from '../../config'
 
 export const StyledEmblem = styled('div', {
-    backgroundColor: '#FFFFFF',
+    backgroundColor: '$white950',
     position: 'relative',
 
     '& img': {
         position: 'absolute',
-        width: '40px',
-        height: '40px',
         objectFit: 'cover',
     },
 
     variants: {
         type: {
             rectangle: {
-                width: '72px',
-                height: '48px',
+                width: '$space$18',
+                height: '$space$12',
+
                 '& img': {
-                    width: '40px',
-                    height: '40px',
-                    top: 'calc(8px / 2)',
-                    left: 'calc(8px / 2)',
+                    width: '$seal-big-width',
+                    height: '$seal-big-height',
+                    top: 'calc(calc($space$12 - $space$10) / 2)',
+                    left: 'calc(calc($space$12 - $space$10) / 2)',
                 },
             },
             square: {
-                width: '48px',
-                height: '48px',
+                width: '$space$12',
+                height: '$space$12',
+
                 '& img': {
-                    width: '30px',
-                    height: '30px',
-                    top: 'calc(18px / 2)',
-                    left: 'calc(18px / 2)',
+                    width: '$seal-small-width',
+                    height: '$seal-small-height',
+                    top: 'calc(calc($space$12 - $space$8) / 2)',
+                    left: 'calc(calc($space$12 - $space$8) / 2)',
                 },
             },
             round: {
-                width: '48px',
-                height: '48px',
-                borderRadius: '999999px',
+                width: '$space$12',
+                height: '$space$12',
+                borderRadius: '$radii$round',
+
                 '& img': {
-                    width: '30px',
-                    height: '30px',
-                    top: 'calc(18px / 2)',
-                    left: 'calc(18px / 2)',
+                    width: '$seal-small-width',
+                    height: '$seal-small-height',
+                    top: 'calc(calc($space$12 - $seal-small-width) / 2)',
+                    left: 'calc(calc($space$12 - $seal-small-height) / 2)',
                 },
             },
         },
     },
 })
+
+StyledEmblem.displayName = 'StyledEmblem'
