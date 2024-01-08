@@ -1739,7 +1739,8 @@ __metadata:
     "@dsmg/eslint-config": "npm:*"
     "@dsmg/typescript-config": "npm:*"
     "@dsmg/ui": "npm:*"
-    "@storybook/addon-actions": "npm:^7.5.3"
+    "@storybook/addon-a11y": "npm:^7.6.7"
+    "@storybook/addon-actions": "npm:^7.6.7"
     "@storybook/addon-docs": "npm:^7.5.3"
     "@storybook/addon-essentials": "npm:^7.5.3"
     "@storybook/addon-links": "npm:^7.5.3"
@@ -3256,7 +3257,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-actions@npm:7.6.7, @storybook/addon-actions@npm:^7.5.3":
+"@storybook/addon-a11y@npm:^7.6.7":
+  version: 7.6.7
+  resolution: "@storybook/addon-a11y@npm:7.6.7"
+  dependencies:
+    "@storybook/addon-highlight": "npm:7.6.7"
+    axe-core: "npm:^4.2.0"
+  checksum: cd396fa4f7dd75df7694f322586bd340e991188e46bfc6d4e8eb220258edbd752a01efd4c56fd2c050aca5df8c849e849a86cbfe5960890f1009539c53c89760
+  languageName: node
+  linkType: hard
+
+"@storybook/addon-actions@npm:7.6.7, @storybook/addon-actions@npm:^7.6.7":
   version: 7.6.7
   resolution: "@storybook/addon-actions@npm:7.6.7"
   dependencies:
@@ -5214,6 +5225,13 @@ __metadata:
   version: 4.7.0
   resolution: "axe-core@npm:4.7.0"
   checksum: 89ac5712b5932ac7d23398b4cb5ba081c394a086e343acc68ba49c83472706e18e0799804e8388c779dcdacc465377deb29f2714241d3fbb389cf3a6b275c9ba
+  languageName: node
+  linkType: hard
+
+"axe-core@npm:^4.2.0":
+  version: 4.8.3
+  resolution: "axe-core@npm:4.8.3"
+  checksum: 762392d03e49b5613e0d58c19bfe0bb0df253a56d6296b07d6d968729acef4ad25822e560f067c563368ac52a62c48cb341e6940b58252ca573334cd74cf8622
   languageName: node
   linkType: hard
 
