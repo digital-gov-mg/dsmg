@@ -1,1 +1,3 @@
-export { Button, type ButtonProps } from './button'
+export * from './config'
+export * from './theme'
+export * from './components'

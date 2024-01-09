@@ -1,14 +1,19 @@
 import React, { type JSX, type ButtonHTMLAttributes } from 'react'
+import { global } from '../../config'
+import { StyledButton } from './button-styled'
 
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     children: React.ReactNode
 }
 
+
 export function Button({ children, ...other }: ButtonProps): JSX.Element {
+    global()
+
     return (
-        <button type="button" {...other}>
+        <StyledButton type="button" {...other}>
             {children}
-        </button>
+        </StyledButton>
     )
 }
 
